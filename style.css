@@ -11,6 +11,7 @@
     justify-content: space-between;
     color: azure;
     align-items: center;
+    
 
 
 }
@@ -249,6 +250,22 @@ select{
     color: rgb(43, 255, 43)
 
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer i.bx.bxs-heart {
+    color: red; 
+  }
 
 /* ----------------Media queries------------------------ */
 
