@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-Clone</title>
+
+    <!-- -------link to boxicons -cdn--------------- -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ----------------link to stylesheet------------------------ -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ----------------------- NAVBAR------------------------------- -->
+    <nav class="navbar">
+      <div class="nav-left">
+        <img
+          src="https://spotify-replicated.netlify.app/assets/spotify-1759471_1280.jpg"
+          alt="Spotify-logo"
+        />
+        <p>Spotify</p>
+      </div>
+      <div class="nav-right">
+        <input
+          type="text"
+          name=""
+          placeholder="search song..."
+          id="search-bar"
+        />
+        <i class="bx bxs-bell"></i>
+        <i class="bx bxs-user"></i>
+      </div>
+    </nav>
+
+    <!-- ----------------------------------------------Main------------------------------------------------------------------- -->
+    <main>
+      <!-- ------------------------left-section---------------------------- -->
+      <div class="left-section-main">
+        <!-- -------------top carousel------------------ -->
+        <div class="song-cards-wrapper">
+          <div class="songs-card">
+            <img
+              src="https://spotify-replicated.netlify.app/assets/jalebi%20bai.webp"
+              alt=""
+            />
+          </div>
+          <div class="songs-card">
+            <img
+              src="https://spotify-replicated.netlify.app/assets/arijitsingh.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="songs-card">
+            <img
+              src="https://spotify-replicated.netlify.app/assets/nehakakkar.webp"
+              alt=""
+            />
+          </div>
+          <div class="songs-card">
+            <img
+              src="https://spotify-replicated.netlify.app/assets/ap-brownmunde.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="songs-card">
+            <img
+              src="https://spotify-replicated.netlify.app/assets/perfect.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- --------------------------latest-release---------------------------------- -->
+        <section class="latest-release">
+          <h1>Latest Release</h1>
+          <div class="latest-songs-container">
+            <div class="latest-song-container">
+              <div class="img-container">
+                <img
+                  src="https://spotify-replicated.netlify.app/assets/tum%20hi%20ho.jpeg"
+                  alt=""
+                />
+                <p>
+                  Tum hi ho <br />
+                  04 apr 2013
+                </p>
+              </div>
+              <div class="img-right-container">
+                <p>
+                  ... <br />
+                  4:28
+                </p>
+              </div>
+            </div>
+            <div class="latest-song-container">
+              <div class="img-container">
+                <img
+                  src="https://spotify-replicated.netlify.app/assets/sun-raha-hai.jpeg"
+                  alt=""
+                />
+                <p>Blue Eyes <br />08 nov 2013</p>
+              </div>
+              <div class="img-right-container">
+                <p>
+                  .... <br />
+                  4:03
+                </p>
+              </div>
+            </div>
+            <div class="latest-song-container">
+              <div class="img-container">
+                <img
+                  src="https://spotify-replicated.netlify.app/assets/onebottledown.jpeg"
+                  alt=""
+                />
+                <p>
+                  One bottle down <br />
+                  30 mar 2015
+                </p>
+              </div>
+              <div class="img-right-container">
+                <p>
+                  ... <br />
+                  3:17
+                </p>
+              </div>
+            </div>
+            <div class="latest-song-container">
+              <div class="img-container">
+                <img
+                  src="https://spotify-replicated.netlify.app/assets/Phantom-Hindi-2015-500x500.jpg"
+                  alt=""
+                />
+                <p>
+                  Saaware <br />
+                  28 aug 2015
+                </p>
+              </div>
+              <div class="img-right-container">
+                <p>
+                  ...<br />
+                  5:22
+                </p>
+              </div>
+            </div>
+            <div class="latest-song-container">
+              <div class="img-container">
+                <img
+                  src="https://spotify-replicated.netlify.app/assets/sheela%20ki%20jawani.jpeg"
+                  alt=""
+                />
+                <p>
+                  Tees maar khan <br />
+                  05 apr 2019
+                </p>
+              </div>
+              <div class="img-right-container">
+                <p>
+                  ... <br />
+                  4:35
+                </p>
+              </div>
+            </div>
+            <div class="latest-song-container">
+              <div class="img-container">
+                <img
+                  src="https://spotify-replicated.netlify.app/assets/Music-Cafe-Meet-Bros-Anjjan-Hindi-2014-500x500.jpg"
+                  alt=""
+                />
+                <p>
+                  Music Cafe Meet Bros Anjaan <br />
+                  2014
+                </p>
+              </div>
+              <div class="img-right-container">
+                <p>
+                  ... <br />
+                  35:02
+                </p>
+              </div>
+            </div>
+            <div class="latest-song-container">
+              <div class="img-container">
+                <img
+                  src="https://spotify-replicated.netlify.app/assets/dooriyan.jpeg"
+                  alt=""
+                />
+                <p>Shayad <br />22 jan 2019</p>
+              </div>
+              <div class="img-right-container">
+                <p>
+                  ... <br />
+                  3:58
+                </p>
+              </div>
+            </div>
+            <div class="latest-song-container">
+              <div class="img-container">
+                <img
+                  src="https://spotify-replicated.netlify.app/assets/dhundhala-circle.jpeg"
+                  alt=""
+                />
+                <p>
+                  Dhundhala <br />
+                  17 feb 2022
+                </p>
+              </div>
+              <div class="img-right-container">
+                <p>
+                  ... <br />
+                  3:03
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -----------------------popular-artists-------------------------------- -->
+        <div class="popular-artists">
+          <h1>Popular artists</h1>
+          <div class="popular-artists-scroller">
+            <img
+              src="https://spotify-replicated.netlify.app/assets/nehakakkar.webp"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/artists/artist1.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/artists/artist2.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/artists/artist3.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/artists/artist4.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/artists/artist5.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/artists/artist6.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/artists/artist8.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- --------------------------popular-songs---------------------------------------------- -->
+        <div class="popular-songs">
+          <h1>Popular Songs</h1>
+          <div class="popular-songs-scroller">
+            <img
+              src="https://spotify-replicated.netlify.app/assets/types/type1.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/types/type2.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/types/type3.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/types/type4.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/types/type5.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/types/type10.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/types/type7.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/types/type8.jpeg"
+              alt=""
+            />
+            <img
+              src="https://spotify-replicated.netlify.app/assets/types/type9.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- --------------------------english-songs--------------------------------------- -->
+        <div class="latest-songs">
+          <h1>English Songs</h1>
+          <div class="songs-scroller">
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/English-songs/song1.jpeg"
+                alt=""
+              />
+              <p>
+                Whenever Whenever <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/English-songs/song2.jpeg"
+                alt=""
+              />
+              <p>
+                Welcome to my life <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/English-songs/song3.jpeg"
+                alt=""
+              />
+              <p>
+                Thunder <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/English-songs/song4.jpeg"
+                alt=""
+              />
+              <p>
+                Despacito <br />
+                04 oct 2009
+              </p>
+            </div>
+
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/English-songs/song6.jpeg"
+                alt=""
+              />
+              <p>
+                Rap battles<br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/English-songs/song7.jpeg"
+                alt=""
+              />
+              <p>
+                Havana <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/English-songs/song8.jpeg"
+                alt=""
+              />
+              <p>
+                Dr. dre <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/English-songs/song3.jpeg"
+                alt=""
+              />
+              <p>
+                Thunder <br />
+                04 oct 2009
+              </p>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- -----------------------------------hindi-songs------------------------------------- -->
+        <div class="latest-songs">
+          <h1>Hindi Songs</h1>
+          <div class="songs-scroller">
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/sun-raha-hai.jpeg"
+                alt=""
+              />
+              <p>
+                Sun raha hai <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/tum%20hi%20ho.jpeg"
+                alt=""
+              />
+              <p>
+                tum hi ho <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/with%20you.webp"
+                alt=""
+              />
+              <p>
+                with you<br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/fevicol%20se.jpeg"
+                alt=""
+              />
+              <p>
+                fevicol <br />
+                04 oct 2009
+              </p>
+            </div>
+
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/jalebi%20bai.webp"
+                alt=""
+              />
+              <p>
+                jalebi bai <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/Phantom-Hindi-2015-500x500.jpg"
+                alt=""
+              />
+              <p>
+                saayanra <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/onebottledown.jpeg"
+                alt=""
+              />
+              <p>
+                one bottle down <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/dooriyan.jpeg"
+                alt=""
+              />
+              <p>
+                dooriyan <br />
+                04 oct 2009
+              </p>
+            </div>
+            <div class="song-card">
+              <img
+                src="https://spotify-replicated.netlify.app/assets/Meri-Pehli-Mohabbat-Hindi-2020-20201212233049-500x500.jpg"
+                alt=""
+              />
+              <p>
+                meri pehli mohabbat <br />
+                04 oct 2009
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------------------right-section-------------------------- -->
+      <div class="right-main">
+        <div class="right-header">
+          <h1>Queue</h1>
+          <div>
+            <label for="queue">Queue</label>
+            <select name="queue" id="queue">
+              <option value="latest">latest</option>
+              <option value="older">older</option>
+              <option value="oldest">oldest</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- --------------Queue------------------------ -->
+        <div class="right-queue-main">
+          <div class="song">
+            <p>01</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/ap-brownmunde.jpeg" alt="" />
+              <p>Ap dhillon</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>02</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/arijitsingh.jpeg" alt="" />
+              <p>Arijit Singh</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>03</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/Cocktail-Hindi-2012-20230430081731-500x500.jpg" alt="" />
+              <p>Jubin Nautiyal</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>04</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/dooriyan.jpeg" alt="" />
+              <p>Arijit Singh</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>05</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/fevicol%20se.jpeg" alt="" />
+              <p>Mamta Sharma</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>06</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/jalebi%20bai.webp" alt="" />
+              <p>Ritu Pathak</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>07</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/Meri-Pehli-Mohabbat-Hindi-2020-20201212233049-500x500.jpg" alt="" />
+              <p>Darshan Raval</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>08</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/Phantom-Hindi-2015-500x500.jpg" alt="" />
+              <p>Mamta Sharma</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>09</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/tum%20hi%20ho.jpeg" alt="" />
+              <p>Arijit Singh</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>10</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/with%20you.webp" alt="" />
+              <p>Ap Dhillon</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>11</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/onebottledown.jpeg" alt="" />
+              <p>Honey Singh</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>12</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/Music-Cafe-Meet-Bros-Anjjan-Hindi-2014-500x500.jpg" alt="" />
+              <p>Honey Singh</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+          <div class="song">
+            <p>13</p>
+            <div class="song-pic">
+              <img src="https://spotify-replicated.netlify.app/assets/sheela%20ki%20jawani.jpeg" alt="" />
+              <p>Mamta Sharma</p>
+            </div>
+            <p><i class='bx bx-heart' ></i></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ------------------------------------FOOTER------------------------------------------ -->
+  </body>
+</html>
